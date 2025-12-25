@@ -60,7 +60,7 @@ export default function Blogs() {
         Community Blogs
       </Typography>
 
-      {posts.map(post=>(
+      {Array.isArray(posts) && posts.map(post => (
         <Card key={post._id} className="p-6 shadow-lg">
 
           <Typography variant="h5">
