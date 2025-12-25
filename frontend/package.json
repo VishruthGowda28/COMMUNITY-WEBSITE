@@ -22,7 +22,6 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://VishruthGowda28.github.io/community-website",
   "browserslist": {
     "production": [
       ">0.2%",
