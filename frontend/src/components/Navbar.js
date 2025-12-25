@@ -7,10 +7,16 @@ export default function Navbar() {
   const isAdmin = localStorage.getItem("role") === "admin";
 
   function handleLogout() {
+HEAD
   localStorage.removeItem("token");
   localStorage.removeItem("role");
   window.location = "/";
 }
+
+    localStorage.removeItem("token");
+    localStorage.removeItem("role");
+    window.location = "/";
+  }63f7998d
 
   return (
     <AppBar position="static" color="primary">

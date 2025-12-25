@@ -47,7 +47,7 @@ export default function Profile(){
 
       {user.profilePic && (
         <img
-          src={`${process.env.REACT_APP_API.replace("/api","")}/uploads/${user.profilePic}`}
+          src={`https://community-web-backend.onrender.com/uploads/${user.profilePic}`}
           className="w-32 h-32 rounded-full mt-4"
           alt="profile"
         />
