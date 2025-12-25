@@ -7,10 +7,10 @@ export default function Navbar() {
   const isAdmin = localStorage.getItem("role") === "admin";
 
   function handleLogout() {
-    localStorage.removeItem("token");
-    localStorage.removeItem("role");
-    window.location = "/login";
-  }
+  localStorage.removeItem("token");
+  localStorage.removeItem("role");
+  window.location = "/";
+}
 
   return (
     <AppBar position="static" color="primary">
